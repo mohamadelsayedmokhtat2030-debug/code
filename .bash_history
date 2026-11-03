@@ -240,3 +240,20 @@ cd ~/storage/shared/SecretText
 git add index.html style.css app.js
 git commit -m "Update SecretText website"
 git push
+cd Me-Code-Editor
+git init
+git add .
+git commit -m "Initial commit - Me-Code-Editor project"
+git branch -M main
+git remote add origin https://github.com/mohamadelsayedmokhtat2030-debug/code.git
+git push -u origin main
+git remote set-url origin https://<YOUR_TOKEN>@github.com/mohamadelsayedmokhtat2030-debug/code.git
+git push -u origin main
+cd /storage/emulated/0/Me-Code-Editor
+ls
+git init
+git add .
+git commit -m "رفع مشروع Me Code Editor"
+git branch -M main
+git remote add origin https://github.com/mohamadelsayedmokhtat2030-debug/code.git
+git push -u origin main
